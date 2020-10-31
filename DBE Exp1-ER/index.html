@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Database Engineering Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <script src="JS/index.js"></script>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="bg-dark text-light text-center p-2 m-1 mt-2">
+        <h3 class="col-md-12 col-sm-12 h3"><b>Database Engineering Lab</b></h3><h3>Experiment No. 1: Entity Relationship Diagrams</h3>
+        <div>
+            <a href="http://dia-installer.de/">
+                Download Dia
+            </a>
+        </div>
+    </div>
+    <div class="row m-1 bg-light p-1" style="position:-webkit-sticky; position:sticky; top:0; z-index:99;">
+
+        <button type="button" class="col-md-2 col-sm-12 btn btn-success p-2" id="playBtn">
+            <img src="images/play.png" class="img-responsive m-0 mb-1 pr-2" height="17" width="22"> <b>Play</b></button>
+        
+        <button type="button" class="col-md-2 col-sm-12 btn btn-primary p-2" id="nextBtn">
+            <img src="images/next.png" class="img-responsive mb-1 pr-2" height="25" width="25"> <b>Next Point</b></button> 
+        
+        <div class="col-md-1 col-sm-12"></div>
+        
+        <button type="button" class="col-md-2 col-sm-12 btn btn-danger p-2" id="resetBtn">
+            <img src="images/reset.png" class="img-responsive m-0 pr-1" height="25" width="30"> <b>Reset</b></button>
+    </div>
+    <h3><div id="title" class="bg-dark m-1 p-3 text-center" style="color: azure;"></div></h3>
+    <div class="row m-1">
+        <div class="col-md-6 col-sm-12 bg-success p-3 text-center" id="imgSection" style="display:inline-block; border: beige ;">
+            <img src="" class="img-responsive p-2 pt-3" id="image" height="300" width="450">
+        </div>
+        
+        <div class="col-md-6 col-sm-12 bg-primary p-5" id="explaination" style="display:inline-block; font-weight: 500; color: wheat;"></div>
+    </div>
+        
+  </body>
+</html>
