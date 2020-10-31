@@ -90,7 +90,6 @@ $(document).ready(function(){
         $("#explaination").show();
         $('#title').show();
         document.getElementById('image').src="images/"+img_url[0]+".png";
-        document.getElementById('image').style.height="150px";
         document.getElementById('explaination').innerHTML=data3[0];
         document.getElementById('title').innerHTML=titles[0];
         i++;        
@@ -117,11 +116,9 @@ $(document).ready(function(){
         }
         if(i>8 && i<13){
             document.getElementById('title').innerHTML=titles[3];
-            document.getElementById("image").style.height="250px";
         }
         if(i==13){
             document.getElementById('title').innerHTML=titles[4];
-            document.getElementById("image").style.height="250px";
         }
         if(i==14){
             document.getElementById('title').innerHTML=titles[5];
